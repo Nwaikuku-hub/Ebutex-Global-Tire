@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Tire Shop</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Ebutex Global Tires</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <h2>Available Tires</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="img/tire-and-rain.jpg" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <h3>All-Season Tire</h3>
+                <p>&#8358; 120,000</p> <!--change to naira-->
+                <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="/img/102525679_MzAwLTIyNS0wOGMzMTEzMmM3.webp" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <h3>All-Season Tire</h3>
+                <p>&#8358; 77,000</p> <!--change to naira-->
+                <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/116307641_MzAwLTQwMC03N2MzYmJjYjVh.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>&#8358 75,000</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/129462498_MzAwLTQwMC1lYmZmNzZlYjEz.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>&#8358 50,000</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/130953447_MzAwLTQwMC1iMmJlNmIzYjBj.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>&#8358 80,000</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/137062462_MzAwLTQwMC01ODlhMzRkNWI1LTE.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/143330098_MzAwLTQwMC05MDc3ZDI5NzZh.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/143616366_MzAwLTQwMC05ZDQ5Y2IxNjkx.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/151478600_MzAwLTQwMC0yN2MyYjg1M2Q3.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/152750897_MzAwLTY2Ny1iZDhkY2RhNWU2.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/155129544_MzAwLTIyNS02MTQ2YzIwM2Vj.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/157718736_MzAwLTY1My0wZTIyYjc2OTQz.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/164635284_MzAwLTM5OC01YTI0MzJkZTVm.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/168113377_MzAwLTIyNS1jNjU0ZmMwNjkw.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="/img/168359455_MzAwLTQwMC1jYTNkMDk5MDE0.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/168436038_MzAwLTQwMC1lMzAyYmVlZWEz.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/35412796_image_2_620x827.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/img/87744567_MzAwLTQwMC02MDlmZjY1ZGI5.webp" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>&#8358120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div> <div class="product">
+            <img src="img/tire-and-rain.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="img/tire-and-rain.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div> <div class="product">
+            <img src="img/tire-and-rain.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div> <div class="product">
+            <img src="img/tire-and-rain.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div> <div class="product">
+            <img src="img/tire-and-rain.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div> <div class="product">
+            <img src="img/tire-and-rain.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div> <div class="product">
+            <img src="img/tire-and-rain.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div> <div class="product">
+            <img src="img/tire-and-rain.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div> <div class="product">
+            <img src="img/tire-and-rain.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <h3>All-Season Tire</h3>
+            <p>$120</p> <!--change to naira-->
+            <button onclick="addToCart('Off-Road Tire', 150)">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ebutex Global Limited. All rights reserved.</p>
+    </footer>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
